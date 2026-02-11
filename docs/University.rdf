@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl/"
-     xml:base="http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl/"
+<rdf:RDF xmlns="https://sbussemaker.github.io/2526-LDSW-Group-9/University.owl/"
+     xml:base="https://sbussemaker.github.io/2526-LDSW-Group-9/University.owl/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:University="http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl"/>
+     xmlns:University="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#">
+    <owl:Ontology rdf:about="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf"/>
     
 
 
@@ -22,22 +22,22 @@
     
 
 
-    <!-- http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#studies -->
+    <!-- https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#studies -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#studies">
+    <owl:ObjectProperty rdf:about="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#studies">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#Student"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#Module"/>
+        <rdfs:domain rdf:resource="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Student"/>
+        <rdfs:range rdf:resource="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Module"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#teaches -->
+    <!-- https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#teaches -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#teaches">
+    <owl:ObjectProperty rdf:about="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#teaches">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#Teacher"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#Module"/>
+        <rdfs:domain rdf:resource="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Teacher"/>
+        <rdfs:range rdf:resource="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Module"/>
     </owl:ObjectProperty>
     
 
@@ -53,41 +53,41 @@
     
 
 
-    <!-- http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#StudentId -->
+    <!-- https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#StudentId -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#StudentId">
+    <owl:DatatypeProperty rdf:about="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#StudentId">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#Student"/>
+        <rdfs:domain rdf:resource="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Student"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#first_name -->
+    <!-- https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#first_name -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#first_name">
+    <owl:DatatypeProperty rdf:about="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#first_name">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#Person"/>
+        <rdfs:domain rdf:resource="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Person"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#last_name -->
+    <!-- https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#last_name -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#last_name">
+    <owl:DatatypeProperty rdf:about="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#last_name">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#Person"/>
+        <rdfs:domain rdf:resource="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Person"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#staffId -->
+    <!-- https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#staffId -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#staffId">
+    <owl:DatatypeProperty rdf:about="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#staffId">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#Teacher"/>
+        <rdfs:domain rdf:resource="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Teacher"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
     </owl:DatatypeProperty>
     
@@ -104,46 +104,46 @@
     
 
 
-    <!-- http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#CSModule -->
+    <!-- https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#CSModule -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#CSModule">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#Module"/>
+    <owl:Class rdf:about="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#CSModule">
+        <rdfs:subClassOf rdf:resource="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Module"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#MathModule -->
+    <!-- https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#MathModule -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#MathModule">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#Module"/>
+    <owl:Class rdf:about="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#MathModule">
+        <rdfs:subClassOf rdf:resource="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Module"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#Module -->
+    <!-- https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Module -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#Module"/>
+    <owl:Class rdf:about="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Module"/>
     
 
 
-    <!-- http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#Person -->
+    <!-- https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Person -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#Person"/>
+    <owl:Class rdf:about="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Person"/>
     
 
 
-    <!-- http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#Student -->
+    <!-- https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Student -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#Student">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#Person"/>
+    <owl:Class rdf:about="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Student">
+        <rdfs:subClassOf rdf:resource="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Person"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#Teacher -->
+    <!-- https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Teacher -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#Teacher">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#Person"/>
+    <owl:Class rdf:about="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Teacher">
+        <rdfs:subClassOf rdf:resource="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Person"/>
     </owl:Class>
     
 
@@ -159,19 +159,19 @@
     
 
 
-    <!-- http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#LDSW -->
+    <!-- https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#LDSW -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#LDSW">
-        <rdf:type rdf:resource="http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#CSModule"/>
+    <owl:NamedIndividual rdf:about="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#LDSW">
+        <rdf:type rdf:resource="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#CSModule"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#student1 -->
+    <!-- https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#student1 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#student1">
-        <rdf:type rdf:resource="http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#Student"/>
-        <University:studies rdf:resource="http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#LDSW"/>
+    <owl:NamedIndividual rdf:about="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#student1">
+        <rdf:type rdf:resource="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Student"/>
+        <University:studies rdf:resource="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#LDSW"/>
         <University:StudentId rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1337</University:StudentId>
         <University:first_name>Stefan</University:first_name>
         <University:last_name>Bussemaker</University:last_name>
@@ -179,11 +179,11 @@
     
 
 
-    <!-- http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#student2 -->
+    <!-- https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#student2 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#student2">
-        <rdf:type rdf:resource="http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#Student"/>
-        <University:studies rdf:resource="http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#LDSW"/>
+    <owl:NamedIndividual rdf:about="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#student2">
+        <rdf:type rdf:resource="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Student"/>
+        <University:studies rdf:resource="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#LDSW"/>
         <University:StudentId rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</University:StudentId>
         <University:first_name>Charlotte</University:first_name>
         <University:last_name>Wang</University:last_name>
@@ -191,11 +191,11 @@
     
 
 
-    <!-- http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#teacher1 -->
+    <!-- https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#teacher1 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#teacher1">
-        <rdf:type rdf:resource="http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#Teacher"/>
-        <University:teaches rdf:resource="http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#LDSW"/>
+    <owl:NamedIndividual rdf:about="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#teacher1">
+        <rdf:type rdf:resource="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Teacher"/>
+        <University:teaches rdf:resource="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#LDSW"/>
         <University:first_name>Luiz</University:first_name>
         <University:last_name>Bonino</University:last_name>
         <University:staffId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6403</University:staffId>
@@ -203,11 +203,11 @@
     
 
 
-    <!-- http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#teacher2 -->
+    <!-- https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#teacher2 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#teacher2">
-        <rdf:type rdf:resource="http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#Teacher"/>
-        <University:teaches rdf:resource="http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#LDSW"/>
+    <owl:NamedIndividual rdf:about="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#teacher2">
+        <rdf:type rdf:resource="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Teacher"/>
+        <University:teaches rdf:resource="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#LDSW"/>
         <University:first_name>Luís</University:first_name>
         <University:last_name>Ferreira Pires</University:last_name>
         <University:staffId rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3843</University:staffId>
@@ -226,10 +226,10 @@
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#CSModule"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#MathModule"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#Student"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/sbuss/ontologies/2026/1/University.owl#Teacher"/>
+            <rdf:Description rdf:about="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#CSModule"/>
+            <rdf:Description rdf:about="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#MathModule"/>
+            <rdf:Description rdf:about="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Student"/>
+            <rdf:Description rdf:about="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Teacher"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>
@@ -237,4 +237,3 @@
 
 
 <!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
-

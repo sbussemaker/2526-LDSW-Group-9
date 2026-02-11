@@ -58,3 +58,5 @@ docker run -ti --rm \
   -v `pwd`/docs/html:/usr/local/widoco/out:Z \
   ghcr.io/dgarijo/widoco:v1.4.23 -ontFile in/University.rdf -outFolder out -rewriteAll
 ```
+
+Documentation is available here: <https://sbussemaker.github.io/2526-LDSW-Group-9/html/index-en.html>.
